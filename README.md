@@ -1,2 +1,2 @@
 # CNN
-- CNN反向传播推导：https://blog.csdn.net/Hearthougan/article/details/72910223
+- CNN反向传播推导：https://www.cnblogs.com/pinard/p/6494810.html
