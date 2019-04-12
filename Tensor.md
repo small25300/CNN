@@ -24,4 +24,4 @@ $$\mathbf{a}=\alpha\mathbf{b}=\alpha(b_je_j)=(\alpha b_j)e_j$$
     \delta_{ij}a_i=a_j
   \end{cases}
 \end{equation}
-(3)式中第一个式子，因为$\delta_{ij}a_j$中，$j $是哑标，所以$j $可以被任意替代，而$\delta_{ij}$当$i=j $时为1，其余为0，所以结果为$a_i$。同理，第二个式子中$i$为哑标，可以用$j$来替换，最终结果为$a_j$。
+(3)式中第一个式子，因为$\delta_{ij}a_j$中，$j$ 是哑标，所以$j$ 可以被任意替代，而$\delta_{ij}$当$i=j$ 时为1，其余为0，所以结果为$a_i$。同理，第二个式子中$i$ 为哑标，可以用$j$ 来替换，最终结果为$a_j$。
