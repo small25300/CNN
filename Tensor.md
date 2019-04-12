@@ -14,6 +14,7 @@ $$\mathbf{a}=\alpha\mathbf{b}=\alpha(b_je_j)=(\alpha b_j)e_j$$
 \delta_{ij}=e_i\cdot e_j=
 \begin{cases}
 1\qquad x=y\\
+
 0 \qquad x\neq y
 \end{cases}
 \end{equation}
