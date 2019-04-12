@@ -55,3 +55,13 @@ $$\mathbf{a}=\alpha\mathbf{b}=\alpha(b_je_j)=(\alpha b_j)e_j$$
       &=& a_1b_2e_3+a_2b_3e_1+a_3b_1e_2-a_1b_3e_2-a_2b_1e_3-a_3b_2e_1
    \end{gathered}
 \end{eqnarray}
+观察(5)式：脚标无论怎么循环移位，都可以形成1、2、3顺序的，这样的排列称为偶排列（正向排列），其项前面为正号。脚标无论怎么循环移位，都可以形成3、2、1顺序的，这样的排列称为奇排列（反向排列），其项前面都为负号。  
+因此我们定义置换符号：
+\begin{equation}
+  \xi_{ijk}=\{\begin{cases}
+  1\qquad ijk为偶排列（正向排列）\\\\
+  -1\qquad ijk为奇排列（反向排列）\\\\
+  0\qquad ijk中有两个的值相等时
+  \end{cases}
+\end{equation}
+$\xi_{ijk}$有27中可能的式子，其中 $ijk$ 有两个值相等的情况有21个。
