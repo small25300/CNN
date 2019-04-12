@@ -46,11 +46,13 @@ $$\mathbf{a}=\alpha\mathbf{b}=\alpha(b_je_j)=(\alpha b_j)e_j$$
   - 但是在此处如果向量$\mathbf{a}$和$\mathbf{b}$都$\in\mathbb{R^3}$，但是却只有两个向量，按照道理应该是三维空间中某一平面中有向量$\mathbf{a}$和$\mathbf{b}$张成的平行四边形的面积，为了符合行列式，我们引入$\mathbf{a}$和$\mathbf{b}$的单位向量$e$，使得$3\times3$的行列式计算出的是面积不是体积。如(5)式所示：
 \begin{equation} 
   \begin{gathered}
-    \mathbf{c}=&\mathbf{a\times b}\\\\
-    =&\begin{vmatrix}
-      e_1 & e_2 & e_3\\\\
-      a_1 & a_2 & a_3\\\\
-      b_1 & b_2 & b_3\\\\
-    \end{vmatrix}
+    \begin{align}
+      \mathbf{c}=&\mathbf{a\times b}\\\\
+      =&\begin{vmatrix}
+        e_1 & e_2 & e_3\\\\
+        a_1 & a_2 & a_3\\\\
+        b_1 & b_2 & b_3\\\\
+      \end{vmatrix}
+    \end{align}
    \end{gathered}
  \end{equation} 
