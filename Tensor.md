@@ -19,6 +19,6 @@ $$\mathbf{a}=\alpha\mathbf{b}=\alpha(b_je_j)=(\alpha b_j)e_j$$
 \end{equation}
 f(n) =
 \begin{cases} 
-n/2,  & \mbox{if }n\mbox{ is even} \\
+n/2,  & \mbox{if }n\mbox{ is even}  
 3n+1, & \mbox{if }n\mbox{ is odd}
 \end{cases}
