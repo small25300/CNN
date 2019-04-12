@@ -16,3 +16,4 @@ $$\mathbf{a}=\alpha\mathbf{b}=\alpha(b_je_j)=(\alpha b_j)e_j$$
 1 x=y\\
 0 x\neq y
 \end{cases}
+\end{equation}
