@@ -59,9 +59,9 @@ $$\mathbf{a}=\alpha\mathbf{b}=\alpha(b_je_j)=(\alpha b_j)e_j$$
 因此我们定义置换符号：
 \begin{equation}
   \xi_{ijk}=\begin{cases}
-  1\qquad ijk为偶排列（正向排列）\\\\
-  -1\qquad ijk为奇排列（反向排列）\\\\
-  0\qquad ijk中有两个的值相等时
+  1\qquad & ijk为偶排列（正向排列）\\\\
+  -1\qquad & ijk为奇排列（反向排列）\\\\
+  0\qquad  & ijk中有两个的值相等时
   \end{cases}
 \end{equation}
 $\xi_{ijk}$有27中可能的式子，其中 $ijk$ 有两个值相等的情况有21个。
