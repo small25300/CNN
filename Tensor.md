@@ -5,4 +5,4 @@ $$a=a_ie_i=a_je_j$$
 $$a_jb_jc_k=a_mb_mc_k$$
 - 矢量的代数运算法则：
 $$\mathbf{c}=\mathbf{a}+\mathbf{b}=a_ie_i+b_ie_i=(a_i+b_i)e_i=c_ie_i$$
-$$\mathbf{a}=\alpha\mathbf{b}=\alpah(b_je_j)=(\alpha b_j)e_j$$
+$$\mathbf{a}=\alpha\mathbf{b}=\alpha(b_je_j)=(\alpha b_j)e_j$$
