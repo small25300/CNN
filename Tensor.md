@@ -44,13 +44,11 @@ $$\mathbf{a}=\alpha\mathbf{b}=\alpha(b_je_j)=(\alpha b_j)e_j$$
 - 叉乘与行列式的关系：
   - 在线性代数中$2\times2$行列式的几何意义是由2个列向量所张成的平行四边形的面积，而如果是$3\times3$行列式，则表示由这3个列向量张成的平行六面体的体积。
   - 但是在此处如果向量$\mathbf{a}$和$\mathbf{b}$都$\in\mathbb{R^3}$，但是却只有两个向量，按照道理应该是三维空间中某一平面中有向量$\mathbf{a}$和$\mathbf{b}$张成的平行四边形的面积，为了符合行列式，我们引入$\mathbf{a}$和$\mathbf{b}$的单位向量$e$，使得$3\times3$的行列式计算出的是面积不是体积。如(5)式所示：
-\begin{equation} 
-  \begin{eqnarray}
+\begin{eqnarray} 
       \mathbf{c}=&\mathbf{a\times b}\\\\
       =&\begin{vmatrix}
         e_1 & e_2 & e_3\\\\
         a_1 & a_2 & a_3\\\\
         b_1 & b_2 & b_3\\\\
       \end{vmatrix}
-   \end{eqnarray}
- \end{equation} 
+\end{eqnarray}
