@@ -36,4 +36,5 @@ $$\mathbf{a}=\alpha\mathbf{b}=\alpha(b_je_j)=(\alpha b_j)e_j$$
     \delta_{3j}a_j
   \end{cases}
 \end{equation}
-- 对于多项式而言，每一项的自由标必须是相同的。
+  - 对于多项式而言，每一项的自由标必须是相同的。
+  - 若一个表达式中有$n$个自由标，则表示有$3^n$个表达式，如有2个自由标，则共有9个表达式。
