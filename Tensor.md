@@ -52,6 +52,6 @@ $$\mathbf{a}=\alpha\mathbf{b}=\alpha(b_je_j)=(\alpha b_j)e_j$$
       e_1 & e_2 & e_3 \\\\
       a_1 & a_2 & a_3 \\\\
       b_1 & b_2 & b_3 \\\\
-    \end{vmatrix}
+    \end{vmatrix}\\\\
    \end{align}
   \end{equation}
