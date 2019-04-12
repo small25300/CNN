@@ -9,4 +9,4 @@ $$\mathbf{a}=\alpha\mathbf{b}=\alpha(b_je_j)=(\alpha b_j)e_j$$
 \begin{equation}
 \mathbf{a}\cdot\mathbf{b}=(a_ie_i)\dot(b_je_j)=a_ib_j(e_i\cdot e_j)=a_ib_j\delta_{ij}=a_ib_i
 \end{equation}
-其中$e_i\cdot\e_j=e_i^Te_j$
+其中$e_i\cdot e_j=e_i^Te_j$
