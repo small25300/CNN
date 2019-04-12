@@ -36,3 +36,4 @@ $$\mathbf{a}=\alpha\mathbf{b}=\alpha(b_je_j)=(\alpha b_j)e_j$$
     \delta_{3j}a_j
   \end{cases}
 \end{equation}
+- 对于多项式而言，每一项的自由标必须是相同的。
