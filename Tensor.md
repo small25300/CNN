@@ -47,8 +47,7 @@ $$\mathbf{a}=\alpha\mathbf{b}=\alpha(b_je_j)=(\alpha b_j)e_j$$
 \begin{equation} 
   \begin{gathered}
     \mathbf{c}=\mathbf{a\times b}\\\\
-    =
-    \begin{vmatrix}
+    =\begin{vmatrix}
       e_1 & e_2 & e_3
     \end{vmatrix}
    \end{gathered}
