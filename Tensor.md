@@ -19,6 +19,8 @@ $$\mathbf{a}=\alpha\mathbf{b}=\alpha(b_je_j)=(\alpha b_j)e_j$$
 \end{equation}
 - 根据以上分析可知：
 \begin{equation}
-  \delta_{ij}a_j=a_i\\\\
-  \delta_{ij}a_i=a_j
+  \begin{cases}
+    \delta_{ij}a_j=a_i四大皆空\\\\
+    \delta_{ij}a_i=a_j
+  \end{cases}
 \end{equation}
