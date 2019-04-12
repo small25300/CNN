@@ -20,7 +20,7 @@ $$\mathbf{a}=\alpha\mathbf{b}=\alpha(b_je_j)=(\alpha b_j)e_j$$
 - 根据以上分析可知：
 \begin{equation}
   \begin{cases}
-    \delta_{ij}a_j=a_i四大皆空\\\\
+    \delta_{ij}a_j=a_i ，因为\delta_{ij}a_j中，j是哑标，所以j可以被任意替代，而\delta_{ij}当i=j时为1，其余为0，所以结果为a_i\\\\
     \delta_{ij}a_i=a_j
   \end{cases}
 \end{equation}
