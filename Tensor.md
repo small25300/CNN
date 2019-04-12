@@ -17,5 +17,5 @@ $$\mathbf{a}=\alpha\mathbf{b}=\alpha(b_je_j)=(\alpha b_j)e_j$$
 0 \qquad x\neq y
 \end{cases}
 \end{equation}
-是单独分开\\
+是单独分开  \\
 手机打开的
