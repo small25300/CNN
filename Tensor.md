@@ -10,10 +10,8 @@ $$\mathbf{a}=\alpha\mathbf{b}=\alpha(b_je_j)=(\alpha b_j)e_j$$
 \mathbf{a}\cdot\mathbf{b}=(a_ie_i)\dot(b_je_j)=a_ib_j(e_i\cdot e_j)=a_ib_j\delta_{ij}=a_ib_i
 \end{equation}
 其中$e_i\cdot e_j=e_i^Te_j$在线性代数中表示向量$e_i$与$e_j$的内积，而此处$e_i$与$e_j$表示标准基，因此当$i=j$时，$e_i\cdot e_j=1$，此处用：
-\begin{equation}
 \delta_{ij}=e_i\cdot e_j=
 \begin{cases}
 1\qquad x=y  \\\
 0 \qquad x\neq y
 \end{cases}
-\end{equation}
