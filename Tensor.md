@@ -155,7 +155,7 @@ $$
   $$
 - 证明$\xi_{ijk}\xi_{mnk}=\delta_{im}\delta_{jn}-\delta_{in}\delta_{jm}$
 $$
-\xi_{ijk}\xi_{mnk} &=& \begin{vmatrix}
+\xi_{ijk}\xi_{mnk} = \begin{vmatrix}
   \delta_{im} & \delta_{in} & \delta_{ik}\\\\
   \delta_{jm} & \delta_{jn} & \delta_{jk}\\\\
   \delta_{km} & \delta_{kn} & \delta_{kk}\\\\
