@@ -204,3 +204,6 @@ $\mathbf{v\cdot n}$表示单位面积内通量的大小，所以$\int_s\mathbf{v
 $\int_s(v_1\cos\alpha_1+v_2\cos\alpha_2+v_3\cos\alpha_3)\ ds=\int_s v_1\cos\alpha_1\ ds+\int_s v_2\cos\alpha_2\ ds+\int_s v_3\cos\alpha_3\ ds$，其中$\cos\alpha \ ds$可以看成是$ds$这个小面积在某个方向上的投影。
 - Gauss公式：
 $$\oint_s \mathbf{u\cdot n}\ ds=\int_s div\ \mathbf{u}\ dv$$
+高斯公式表明：针对一个物理量封闭曲面的面积积分可以变成针对它的体积积分（**此处完全忘记了，如果以后可能用到，再查高数**）  
+其中：$\oint_s \mathbf{u\cdot n}\ ds$表示封闭曲面的通量，而$div\ \mathbf{u}$就是我们此处要定义的散度。
+$$div\ \mathbf{u}=\nabla\cdot \mathbf{u}=u_{i,i}=\frac{\partial u_1}{\partial x_1}+\frac{\partial u_2}{\partial x_2}+\frac{\partial u_3}{\partial x_3}$$
