@@ -244,6 +244,10 @@ $$
 - 若$det\ M=-1<0$:
   - 绕过远点的某轴的一个旋转。
   - 对某个轴的反射，右手系的原坐标系改为左手系。
-## Tensor
 - $Scalar\Longrightarrow Vector\Longrightarrow Tensor$
 - 标量$\Longrightarrow$标量+方向$\Longrightarrow$矢量+方向
+- 坐标变换-可以看成基变换的特殊情况，特殊在基是正交基。
+  - 基变换的表示：
+  \begin{equation}
+    \begin{pmatrix} e_1^'\\\\e_2^'\\\\e_3'\end{pmatrix}
+  \end{equation}
