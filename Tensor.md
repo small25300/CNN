@@ -72,11 +72,13 @@ $\xi_{ijk}$有27中可能的式子，其中 $ijk$ 有两个值相等的情况有
   \begin{equation}
     \mathbf{c=a\times b}=\xi_{ijk}a_ib_je_k
   \end{equation}
-  \begin{eqnarray}
+  \begin{equation}
+    \begin{array}
       \mathbf{c}&=&\mathbf{a\times b}\\\\
      &=&(a_ie_i)\times (b_je_j)\\\\
      &=&(a_ib_j)(e_i\times e_j)
-  \end{eqnarray}
+    \end{array}
+  \end{equation}
   对比上面(7)式和(8)式：$a_ib_j(e_i\times e_j)=\xi_{ijk}a_ib_je_k$，可得出：
   $$e_i\times e_j=\xi_{ijk}e_k$$
  - 混合积
