@@ -207,3 +207,12 @@ $$\oint_s \mathbf{u\cdot n}\ ds=\int_s div\ \mathbf{u}\ dv$$
 高斯公式表明：针对一个物理量封闭曲面的面积积分可以变成针对它的体积积分（**此处完全忘记了，如果以后可能用到，再查高数**）  
 其中：$\oint_s \mathbf{u\cdot n}\ ds$表示封闭曲面的通量，而$div\ \mathbf{u}$就是我们此处要定义的散度。
 $$div\ \mathbf{u}=\nabla\cdot \mathbf{u}=u_{i,i}=\frac{\partial u_1}{\partial x_1}+\frac{\partial u_2}{\partial x_2}+\frac{\partial u_3}{\partial x_3}$$
+- 散度的物理意义：
+  - 若$div\ \mathbf{u}>0$，则表示在该点有源。
+  - 若$div\ \mathbf{u}<0$，则表示在该点有汇。
+  - 若$div\ \mathbf{u}=0$，则表示在该点无源无汇。
+    - $div\ \mathbf{u}=0$的大小表示“源”和“汇”的强度，与坐标系无关。
+  - “源”与“汇”的概念：以一个水池为例进行说明：
+    - 源：☞一个封闭水池中的水流入口
+    - 汇：☞一个封闭水池中的水流出口
+  - 若是一个完全封闭的空间，这对某一物理量与外界没有任何的交换，则其散度必然为0，因为该空间无源无汇。
