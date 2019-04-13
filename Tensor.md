@@ -271,5 +271,6 @@ $$
 因为：$\mathbf{e^\prime,e}$都是单位标准基，所以:
 \begin{eqnarray*}
   e_i^\prime\cdot e_i&=&\lVert e_i^\prime\rVert\cdot\lVert e_i\rVert\cos<e_i^\prime,e_i>\\\\
-  1\cdot 1\cos<e_i^\prime,e_i>=\cos<e_i^\prime,e_i>\\\\
+  &=&1\cdot 1\cos<e_i^\prime,e_i>\\\\
+  &=&\cos<e_i^\prime,e_i>\\\\
 \end{eqnarray*}
