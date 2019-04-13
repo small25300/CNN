@@ -162,8 +162,8 @@ $$
   \end{vmatrix}\\\\
   &=&\delta_{im}\delta_{jn}\delta_{kk}+\delta_{in}\delta_{jk}\delta_{km}+\delta_{ik}\delta_{jm}\delta_{kn}\\\\
   -\delta_{ik}\delta_{jn}\delta_{km}-\delta_{im}\delta_{jk}\delta_{kn}-\delta_{in}\delta_{jm}\delta_{kk}\\\\
- & 根据：\delta_{kk}=\delta_{11}+\delta_{22}+\delta_{33}\\\\
-  &\delta_{ik}\delta_{jm}\delta_{kn}中当i=k时\delta_{ik}=1，且k是哑标可以将k替换为i\\\\
+ 根据：\delta_{kk}=\delta_{11}+\delta_{22}+\delta_{33}\\\\
+  \delta_{ik}\delta_{jm}\delta_{kn}中当i=k时\delta_{ik}=1，且k是哑标可以将k替换为i\\\\
   &=&3\delta_{im}\delta_{jn}+\delta_{in}\delta_{jm}+\delta_{in}\delta_{jm}-\delta_{im}\delta_{jn}-\delta_{im}\delta_{jn}-3\delta_{in}\delta_{jm}\\\\
   &=&3\delta_{im}\delta_{jn}+2\delta_{in}\delta_{jm}-2\delta_{im}\delta_{jn}-3\delta_{in}\delta_{jm}\\\\
   &=&\delta_{im}\delta_{jn}-\delta_{in}\delta_{jm}
