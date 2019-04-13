@@ -310,8 +310,6 @@ $$(e_1\quad e_2\quad e_3)M^Tb^\prime=(e_1\quad e_2\quad e_3)b$$
   \end{bmatrix}$$
   而线性代数中得变换矩阵是将$e_1^\prime$看成是以$e_1,e_2$为基得列向量，其变换矩阵用$e_1^\prime,e_2^\prime$得两个列向量构成，所以：
   $$\lbrack b\rbrack_{\mathbf{e^\prime}}=\underset{\mathbf{e^\prime}\leftarrow\mathbf{e}}{P}\cdot\lbrack b\rbrack_\mathbf{e} $$
-  上述表达式是用新基表示老基，所以：
-  \begin{eqnarray*}
-    \underset{\mathbf{e^\prime}\leftarrow\mathbf{e}}{P}=(M^T)^{-1}\\\\
-    \underset{\mathbf{e}\leftarrow\mathbf{e^\prime}}{P}=M^T
-   \end{eqnarray*}
+  上述表达式是用新基表示老基，所以：$$\underset{\mathbf{e^\prime}\leftarrow\mathbf{e}}{P}=(M^T)^{-1}$$
+  同理：$$\underset{\mathbf{e}\leftarrow\mathbf{e^\prime}}{P}=M^T$$
+ 
