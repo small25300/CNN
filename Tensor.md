@@ -161,8 +161,8 @@ $$
     \delta_{jm} & \delta_{jn} & \delta_{jk}\\\\
     \delta_{km} & \delta_{kn} & \delta_{kk}\\\\
   \end{vmatrix}\\\\
-  &=&\delta_{im}\delta_{jn}\delta_{kk}+\delta_{in}\delta_{jk}\delta_{km}+\delta_{ik}\delta_{jm}\delta_{kn}\\\\
-  -\delta_{ik}\delta_{jn}\delta_{km}-\delta_{im}\delta_{jk}\delta_{kn}-\delta_{in}\delta_{jm}\delta_{kk}
+  &=&\delta_{im}\delta_{jn}\delta_{kk}+\delta_{in}\delta_{jk}\delta_{km}+\delta_{ik}\delta_{jm}\delta_{kn}
+  -\delta_{ik}\delta_{jn}\delta_{km}-\delta_{im}\delta_{jk}\delta_{kn}-\delta_{in}\delta_{jm}\delta_{kk}\\\\
   &=&3\delta_{im}\delta_{jn}+\delta_{in}\delta_{jm}+\delta_{in}\delta_{jm}-\delta_{im}\delta_{jn}-\delta_{im}\delta_{jn}-3\delta_{in}\delta_{jm}\\\\
   &=&3\delta_{im}\delta_{jn}+2\delta_{in}\delta_{jm}-2\delta_{im}\delta_{jn}-3\delta_{in}\delta_{jm}\\\\
   &=&\delta_{im}\delta_{jn}-\delta_{in}\delta_{jm}
