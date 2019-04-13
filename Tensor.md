@@ -155,7 +155,7 @@ $$
   $$
   上面的这个推导思路压根计算不出来，具体怎么推理也不清楚。暂时放在这儿！
 - 证明$\xi_{ijk}\xi_{mnk}=\delta_{im}\delta_{jn}-\delta_{in}\delta_{jm}$
-\begin{aligned*}
+\begin{align*}
   \xi_{ijk}\xi_{mnk} &=& \begin{vmatrix}
     \delta_{im} & \delta_{in} & \delta_{ik}\\\\
     \delta_{jm} & \delta_{jn} & \delta_{jk}\\\\
@@ -166,7 +166,7 @@ $$
   &=&3\delta_{im}\delta_{jn}+\delta_{in}\delta_{jm}+\delta_{in}\delta_{jm}-\delta_{im}\delta_{jn}-\delta_{im}\delta_{jn}-3\delta_{in}\delta_{jm}\\\\
   &=&3\delta_{im}\delta_{jn}+2\delta_{in}\delta_{jm}-2\delta_{im}\delta_{jn}-3\delta_{in}\delta_{jm}\\\\
   &=&\delta_{im}\delta_{jn}-\delta_{in}\delta_{jm}
-\end{aligned*}
+\end{align*}
 根据：$\delta_{kk}=\delta_{11}+\delta_{22}+\delta_{33}$且$\delta_{ik}\delta_{jm}\delta_{kn}中当i=k时\delta_{ik}=1$，且  $k$是哑标可以将 $k$ 替换为 $i$。
 # 2. 与场有关的物理量
 ## 场的定义
