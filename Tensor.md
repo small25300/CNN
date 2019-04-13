@@ -312,4 +312,4 @@ $$(e_1\quad e_2\quad e_3)M^Tb^\prime=(e_1\quad e_2\quad e_3)b$$
   $$[b]_{\mathbf{e^\prime}}=P_{\mathbf{e^\prime}\leftarrow\mathbf{e}}[b]_\mathbf{e}$$
   其中：
   $$P_{\mathbf{e^\prime}\leftarrow\mathbf{e}}=\begin{bmatrix}2 & 2\\\\1 & 3\end{bmatrix}$$
-  $$P\limits_{\mathbf{e^\prime}\leftarrow\mathbf{e}}$$
+  $$$$P\limits_{\mathbf{e^\prime}\leftarrow\mathbf{e}}$$
