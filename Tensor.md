@@ -199,4 +199,4 @@ $$g=\nabla\ \varphi=\varphi_{,i}e_i$$
   $$\mathbf{v\cdot n}=\lVert\mathbf{v}\rVert\cdot\lVert\mathbf{n}\rVert\cos\theta=\lVert\mathbf{v}\rVert\cos\theta$$
   由于$\mathbf{v}$与$\mathbf{n}$的夹角为$\theta$，则$\lVert\mathbf{v}\rVert\cos\theta$表示$\mathbf{v}$在$\mathbf{n}$方向上的投影，因此$\mathbf{v\cdot n}$就是该投影。
 - 穿过曲面通量的公式表示：
-$$\int_s\mathbf{v\cdot n}ds$$
+$$\int_s\mathbf{v\cdot n}\ ds=\int_s v_in_i\ ds=\int_s(v_1\cos\alpha_1+v_2\cos\alpha_2+v_3\cos\alpha_3)$$
