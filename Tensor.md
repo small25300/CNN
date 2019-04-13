@@ -190,6 +190,6 @@ $$g=\nabla\ \varphi=\varphi_{,i}e_i$$
 \begin{eqnarray*}
   \begin{gathered}
     \frac{\partial\varphi}{\partial\mathbf{n}}=\nabla\varphi\cdot\mathbf{n}\\\\
-    \frac{\partial\varphi}{\partial x_1}\cos\alhpa_1+\frac{\partial\varphi}{\partial x_2}\cos\alhpa_2+\frac{\partial\varphi}{\partial x_3}\cos\alhpa_3
+    \frac{\partial\varphi}{\partial x_1}\cos\alpha_1+\frac{\partial\varphi}{\partial x_2}\cos\alpha_2+\frac{\partial\varphi}{\partial x_3}\cos\alpha_3
   \end{gathered}
 \end{eqnarray*}
