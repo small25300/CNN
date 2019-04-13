@@ -310,7 +310,7 @@ $$(e_1\quad e_2\quad e_3)M^Tb^\prime=(e_1\quad e_2\quad e_3)b$$
   \end{bmatrix}$$
   而线性代数中得变换矩阵是将$e_1^\prime$看成是以$e_1,e_2$为基得列向量，其变换矩阵用$e_1^\prime,e_2^\prime$得两个列向量构成，所以：
   \begin{equation*} 
-    [b]_{\mathbf{e^\prime}}=P_{\mathbf{e^\prime}\leftarrow\mathbf{e}}[b]_\mathbf{e} 
+    b_{\mathbf{e^\prime}}=P_{\mathbf{e^\prime}\leftarrow\mathbf{e}}b_\mathbf{e} 
   \end{equation*}
   其中：
   $$ 
