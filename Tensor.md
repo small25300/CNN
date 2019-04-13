@@ -246,7 +246,7 @@ $$
   - 对某个轴的反射，右手系的原坐标系改为左手系。
 - $Scalar\Longrightarrow Vector\Longrightarrow Tensor$
 - 标量$\Longrightarrow$标量+方向$\Longrightarrow$矢量+方向
-- 坐标变换-可以看成基变换的特殊情况，特殊在基是正交基。
+- 坐标变换-可以看成基变换的特殊情况，特殊在基是正交基或标准基。
   - 坐标变换的表示：
   \begin{equation}
     \begin{pmatrix}e_1^\prime\\\\e_2^\prime\\\\e_3^\prime\\\\ \end{pmatrix}=M\begin{pmatrix}e_1\\\\e_2\\\\e_3\\\\ \end{pmatrix}
@@ -268,3 +268,8 @@ $$
         e_3^\prime\cdot e_1 & e_3^\prime\cdot e_2 & e_3^\prime\cdot e_3\\\\ 
       \end{bmatrix}
   \end{equation}
+因为：$\mathbf{e^\prime,e}$都是单位标准基，所以:
+\begin{eqnarray*}
+  e_i^\prime\cdot e_i&=&\lVert e_i^\prime\rVert\cdot\lVert e_i\rVert\cos<e_i^\prime,e_i>\\\\
+  1\cdot 1\cos<e_i^\prime,e_i>=\cos<e_i^\prime,e_i>\\\\
+\end{eqnarray*}
