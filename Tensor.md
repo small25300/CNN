@@ -293,4 +293,4 @@ $$
 将（14）式代入（13）式得：
 $$(e_1\quad e_2\quad e_3)M^Tb^\prime=(e_1\quad e_2\quad e_3)b$$
 等式两边比较得：
-\begin{eqnarray}b&=&M^Tb^\prime\\\\b^\prime&=&Mb\end{eqnarray}
+\begin{eqnarray}\begin{cases}b&=&M^Tb^\prime\\\\b^\prime&=&Mb\end{cases}\end{eqnarray}
