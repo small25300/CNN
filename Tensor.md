@@ -282,4 +282,11 @@ $$
         \cos<e_3^\prime,e_1> & \cos<e_3^\prime,e_2> & \cos<e_3^\prime,e_3>\\\\ 
       \end{bmatrix}
   \end{equation}
-- 同一个向量在不同坐标系下的表示：$(e_1^\prime\quad e_2^\prime\quad e_3^\prime)b^\prime=(e_1\quad e_2\quad e_3)b$，由于$M$是一个正交矩阵，所以$M^T=M^{-1}$
+- 同一个向量在不同坐标系下的表示：
+\begin{equation}
+  (e_1^\prime\quad e_2^\prime\quad e_3^\prime)b^\prime=(e_1\quad e_2\quad e_3)b
+\end{equation}
+，由于$M$是一个正交矩阵，所以$M^T=M^{-1}$,在（10）式两边同时取转置，得：
+\begin{eqnarray}
+  (e_1^\prime\quad e_2^\prime\quad e_3^\prime)&=&(e_1\quad e_2\quad e_3)M^T
+\end{eqnarray}
