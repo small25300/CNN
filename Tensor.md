@@ -296,3 +296,17 @@ $$(e_1\quad e_2\quad e_3)M^Tb^\prime=(e_1\quad e_2\quad e_3)b$$
 \begin{eqnarray}\begin{cases}b&=&M^Tb^\prime\\\\b^\prime&=&Mb\end{cases}\end{eqnarray}
 也可以按照$M$矩阵得元素来表达（15）式：
 \begin{eqnarray}\begin{cases}b_i&=&M_{ji}b_j^\prime\\\\b_i^\prime&=&M_{ij}b_j\end{cases}\end{eqnarray}
+  - 注意：此处得基得变换矩阵没有采用线性代数中得列向量得方式，而是直接采用矩阵乘法直接表示。在线性代数中基得变换矩阵与向量得变换刚好相反，原因是：
+  \begin{eqnarray*}
+    \begin{cases}
+      e_1^\prime=2e_1+e_2\\\\
+      3_2^\prime=2e_1+3e_2\\\\
+    \end{cases}
+  \end{eqnarray*}
+  则：
+  $$M=\begin{bmatrix}
+  2 & 1\\\\
+  2 & 3\\\\
+  \end{bmatrix}$$
+  而线性代数中得变换矩阵是将$e_1^\prime$看成是以$e_1,e_2$为基得列向量，其变换矩阵用$e_1^\prime,e_2^\prime$得两个列向量构成，所以：
+  $$\[b\]_{e}$$
