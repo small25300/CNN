@@ -191,3 +191,9 @@ $$g=\nabla\ \varphi=\varphi_{,i}e_i$$
 \end{eqnarray*}
 其中：$\mathbf{n}$是方向向量(注意：它不是单位向量)，$\mathbf{n}=(\cos\alpha_1,\cos\alpha_2,\cos\alpha_3)^T$，它实际上表示的是$\mathbf{n}$在标准基$e_1,e_2,e_3$三个方向上的投影。  
 本质上：$\nabla\varphi\cdot\mathbf{n}=(\varphi_{,i}e_i)\cdot(n_je_j)=\varphi_{,i}n_j(e_i\cdot e_j)=\varphi_{,i}n_j\delta_{ij}=\varphi_{,i}n_i$
+## 散度
+- 通量（类似磁通量）：☞穿过空间某个任意曲面的物理量的总量称为通量。
+  - 由上面通量定义可知，能形成通量的物理量一定是矢量。
+  - 对于一个曲面，真正意义上的通量是与该曲面法线（垂直与该曲面某点切面的直线）方向向平行的物理量，但实际情况不是所有物理量都沿法线方向，因此是该物理量在法线方向上的投影，才是真正的通量。
+  - 物理量用向量$mathbf{v}$表示，法线用向量$\mathbf{n}$表示，注意此处的法向量是一个单位向量，因此：
+  $$\mathbf{v\cdot n}=\lVert\mathbf{v}\rVert\cdot\lVert\mathbf{n}\rVert\cos\theta$$
