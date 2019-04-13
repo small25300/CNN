@@ -181,3 +181,5 @@ $$
 \begin{equation}
   g = grad \ \varphi = \nabla\ \varphi
 \end{equation}
+其中：$\nabla$称为Hamilton算符，其本身就是一个矢量，可以用下式表示：
+$$\nabla=\frac{\partial}{\partial x_1}e_1+\frac{\partial}{\partial x_2}e_2+\frac{\partial}{\partial x_3}e_3=\nabla=\frac{\partial}{\partial x_i}e_i$$
