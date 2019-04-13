@@ -189,8 +189,8 @@ $$g=\nabla\ \varphi=\varphi_{,i}e_i$$
 - 方向导数与梯度的关系：
 \begin{eqnarray*}
   \begin{gathered}
-    \frac{\partial\varphi}{\partial\mathbf{n}}&=&\nabla\varphi\cdot\mathbf{n}\\\\
-    &=&\frac{\partial\varphi}{\partial x_1}\cos\alpha_1+\frac{\partial\varphi}{\partial x_2}\cos\alpha_2+\frac{\partial\varphi}{\partial x_3}\cos\alpha_3
+    \frac{\partial\varphi}{\partial\mathbf{n}}&=\nabla\varphi\cdot\mathbf{n}\\\\
+    &=\frac{\partial\varphi}{\partial x_1}\cos\alpha_1+\frac{\partial\varphi}{\partial x_2}\cos\alpha_2+\frac{\partial\varphi}{\partial x_3}\cos\alpha_3
   \end{gathered}
 \end{eqnarray*}
 其中：$\mathbf{n}$是方向向量(注意：它不是单位向量)，$\mathbf{n}=(\cos\alpha_1,\cos\alpha_2,\cos\alpha_3)^T$，它实际上表示的是$\mathbf{n}$在标准基$e_1,e_2,e_3$三个方向上的投影。  
