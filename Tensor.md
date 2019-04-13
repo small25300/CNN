@@ -220,3 +220,11 @@ $$div\ \mathbf{u}=\nabla\cdot \mathbf{u}=u_{i,i}=\frac{\partial u_1}{\partial x_
 - 定义：设$\Gamma$为分段光滑的空间有向闭曲线，$\sum$是以$\Gamma$为边界的分片光滑有向曲面。$\Gamma$的方向与$\sum$曲面的法线之间是符合右手定则的，函数$P(x,y,z),Q(x,y,z),R(x,y,z)$在包含曲面$\sum$在内的一个空间区域内具有一阶连续偏导数。（**这个定义感觉没有说完，也不明白**）
 - 我们用Stokes公式(斯托克斯)来描述旋度：
 $$\iint_\sum (\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z})\ dydz+(\frac{\partial P}{\partial z}-\frac{\partial R}{\partial x})\ dzdx+(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y})\ dxdy=\oint_\Gamma P\ dx+Q\ dy+R\ dz$$
+令：
+$$
+rot \mathbf{u}=\nabla\times\mathbf{u}=\begin{vmatrix}
+e_1 & e_2 & e_3\\\\
+\frac{\partial}{\partial x_1} & \frac{\partial}{\partial x_2} & \frac{\partial}{\partial x_3}\\\\
+u_1 & u_2 & u_3\\\\
+\end{vmatrix}
+$$
