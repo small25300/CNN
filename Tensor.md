@@ -294,3 +294,5 @@ $$
 $$(e_1\quad e_2\quad e_3)M^Tb^\prime=(e_1\quad e_2\quad e_3)b$$
 等式两边比较得：
 \begin{eqnarray}\begin{cases}b&=&M^Tb^\prime\\\\b^\prime&=&Mb\end{cases}\end{eqnarray}
+也可以按照$M$矩阵得元素来表达（15）式：
+\begin{eqnarray}\begin{cases}b_i&=&M_{ji}b_j^\prime\\\\b_i^\prime&=&M_{ij}b_j\end{cases}\end{eqnarray}
