@@ -274,3 +274,11 @@ $$
   &=&1\cdot 1\cos<e_i^\prime,e_i>\\\\
   &=&\cos<e_i^\prime,e_i>\\\\
 \end{eqnarray*}
+则$M$最终可以表示为：
+\begin{equation}
+    M = \begin{bmatrix}
+        \cos<e_1^\prime,e_1> & \cos<e_1^\prime,e_2> & \cos<e_1^\prime,e_3>\\\\
+        \cos<e_2^\prime,e_1> & \cos<e_2^\prime,e_2> & \cos<e_2^\prime,e_3>\\\\ 
+        \cos<e_3^\prime,e_1> & \cos<e_3^\prime,e_2> & \cos<e_3^\prime,e_3>\\\\ 
+      \end{bmatrix}
+  \end{equation}
