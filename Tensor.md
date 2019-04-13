@@ -104,3 +104,21 @@ $\xi_{ijk}$有27中可能的式子，其中 $ijk$ 有两个值相等的情况有
       - 通过以上方式可以证明：
       $$\mathbf{[a,b,c]=[c,a,b]=[b,c,a]}\qquad 注意：是正向排序$$
       $$\mathbf{[a,b,c]=-[c,b,a]=-[b,a,c]=-[a,c,b]}\qquad 注意：是反向排序$$
+## Kronecker($\delta$)符号与置换符号之间的关系
+$$
+\begin{vmatrix}
+  \delta_{11} & \delta_{12} & \delta_{13}\\\\
+  \delta_{21} & \delta_{22} & \delta_{23}\\\\
+  \delta_{31} & \delta_{32} & \delta_{33}\\\\
+\end{vmatrix}=
+\begin{vmatrix}
+  \delta_{11} & 0 & 0\\\\
+  0 & \delta_{22} & 0\\\\
+  0 & 0 & \delta_{33}\\\\
+\end{vmatrix}=
+\begin{vmatrix}
+1 & 0 & 0\\\\
+0 & 1 & 0\\\\
+0 & 0 & 1\\\\
+\end{vmatrix}
+$$
