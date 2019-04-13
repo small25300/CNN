@@ -101,5 +101,6 @@ $\xi_{ijk}$有27中可能的式子，其中 $ijk$ 有两个值相等的情况有
         \end{gathered}
       \end{eqnarray*}
       其中：因为$e_i\times e_j=\xi_{ijk}e_k$，所以$e_j\times e_k=\xi_{jkl}e_l$，由于前面有$a_ie_i$,所以不能用 $i$ 符号，选择 $l$ 符号。
-      - 通过以上方式可以证明：&&\mathbf{[a,b,c]=[c,a,b]=[b,c,a]}\qquad 注意：是正向排序&&
+      - 通过以上方式可以证明：
+      &&\mathbf{[a,b,c]=[c,a,b]=[b,c,a]}\qquad 注意：是正向排序&&
       &&\mathbf{[a,b,c]=-[c,b,a]=-[b,a,c]=-[a,c,b]}&&
