@@ -288,5 +288,9 @@ $$
 \end{equation}
 ，由于$M$是一个正交矩阵，所以$M^T=M^{-1}$,在（10）式两边同时取转置，得：
 \begin{eqnarray}
-  (e_1^\prime\quad e_2^\prime\quad e_3^\prime)&=&(e_1\quad e_2\quad e_3)M^T
+  (e_1^\prime\quad e_2^\prime\quad e_3^\prime)=(e_1\quad e_2\quad e_3)M^T
 \end{eqnarray}
+将（14）式代入（13）式得：
+$$(e_1\quad e_2\quad e_3)M^Tb^\prime=(e_1\quad e_2\quad e_3)b$$
+等式两边比较得：
+\begin{equation}b&=M^Tb^\prime\\\\b^\prime&=Mb\end{equation}
