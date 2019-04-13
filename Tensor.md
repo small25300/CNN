@@ -151,8 +151,9 @@ $$
   $$
   具体推导思路：将$\xi_{pqr}$写成同$\xi_{ijk}$相同的模式，由于这两个置换符号用$\delta$符号表示的行列式中仅有对角线元素是为1的，其他元素都为0，所以就是对应对角线元素的乘积(**但是该乘积以点乘表示才能推导出，具体原因不详**)，仅以$\delta_{1p}\cdot\delta_{1i}$为例：
   $$
-  \delta_{1p}\cdot\delta_{1i}=(e_1e_p)\cdot (e_1e_i)=(e_1e_p)^T(e_1e_i)=e_p^Te_1^Te_1e_i=e_p^Te_i=e_p\cdot e_i=\delta_{pi}
+  \delta_{1p}\cdot\delta_{1i}=(e_1\cdot e_p)\cdot (e_1\cdot e_i)=(e_1e_p)^T(e_1e_i)=e_p^Te_1^Te_1e_i=e_p^Te_i=e_p\cdot e_i=\delta_{pi}
   $$
+  上面的这个推导思路压根计算不出来，具体怎么推理也不清楚。暂时放在这儿！
 - 证明$\xi_{ijk}\xi_{mnk}=\delta_{im}\delta_{jn}-\delta_{in}\delta_{jm}$
 \begin{eqnarray*}
   \xi_{ijk}\xi_{mnk} &=& \begin{vmatrix}
@@ -178,5 +179,5 @@ $$
 - 梯度：若在数量场中的一点$M$处存在着矢量 $g$ ，其方向为$M$点处函数变化最大的方向，其模为这个最大变化率的值，则称 $g$ 为这个函数在$M$点处的梯度。（即：$M$点处方向导数最大的方向为梯度方向，梯度值为方向导数最大值或该方向导数的模）。
 - 梯度的表示：
 \begin{equation}
-  g = grad \varphi = \nabla\varphi
+  g = grad \ \varphi = \nabla\ \varphi
 \end{equation}
