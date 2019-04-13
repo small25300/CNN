@@ -81,3 +81,6 @@ $\xi_{ijk}$有27中可能的式子，其中 $ijk$ 有两个值相等的情况有
   \end{eqnarray}
   对比上面(7)式和(8)式：$a_ib_j(e_i\times e_j)=\xi_{ijk}a_ib_je_k$，可得出：
   $$e_i\times e_j=\xi_{ijk}e_k$$
+ - 混合积
+ $$[\mathbf{a,b,c}]=\mathbf{a\cdot (b\times c)}$$
+ 它表示由$\mathbf{a,b,c}$所张成的平行六面体的体积，这个与$3\times 3$行列式的几何意义完全相同。
