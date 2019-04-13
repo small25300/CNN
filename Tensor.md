@@ -100,4 +100,4 @@ $\xi_{ijk}$有27中可能的式子，其中 $ijk$ 有两个值相等的情况有
         &=&\xi_{ljk}a_lb_jc_k
       \end{gathered}
     \end{eqnarray*}
-    其中：因为e_i\times e_j=\xi_{ijk}e_k，所以e_j\times e_k=\xi_{jkl}e_l，由于前面有a_ie_i,所以不能用i符号，选择l符号。
+    其中：因为$e_i\times e_j=\xi_{ijk}e_k$，所以$e_j\times e_k=\xi_{jkl}e_l$，由于前面有$a_ie_i$,所以不能用i符号，选择l符号。
