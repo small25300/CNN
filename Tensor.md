@@ -120,5 +120,23 @@ $$
 1 & 0 & 0\\\\
 0 & 1 & 0\\\\
 0 & 0 & 1\\\\
-\end{vmatrix}
+\end{vmatrix}=1
 $$
+  - 行列式的性质是交换行或列一次，行列式变号，该性质与置换符号相同，所以置换符号可以用下列式子来表示：
+  $$
+  \xi_{ijk}=
+  \begin{vmatrix}
+    \delta_{1i} & \delta_{1j} & \delta_{1k}\\\\
+    \delta_{2i} & \delta_{2j} & \delta_{2k}\\\\
+    \delta_{3i} & \delta_{3j} & \delta_{3k}\\\\
+  \end{vmatrix}
+  $$
+  所以：
+  $$
+  \xi_{ijk}=-
+  \begin{vmatrix}
+    \delta_{1j} & \delta_{1i} & \delta_{1k}\\\\
+    \delta_{2j} & \delta_{2i} & \delta_{2k}\\\\
+    \delta_{3j} & \delta_{3i} & \delta_{3k}\\\\
+  \end{vmatrix}
+  $$
