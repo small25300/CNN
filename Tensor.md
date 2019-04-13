@@ -314,6 +314,5 @@ $$(e_1\quad e_2\quad e_3)M^Tb^\prime=(e_1\quad e_2\quad e_3)b$$
   \end{equation*}
   其中：
   $$ 
-    P_{\mathbf{e^\prime}\leftarrow\mathbf{e}}=\begin{bmatrix}2 & 2\\\\1 & 3\end{bmatrix}
+    \underset{\mathbf{e^\prime}\leftarrow\mathbf{e}}{P}=\begin{bmatrix}2 & 2\\\\1 & 3\end{bmatrix}
   $$
-  $$$$P_{\mathbf{e^\prime}\leftarrow\mathbf{e}}$$
