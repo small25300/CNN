@@ -217,6 +217,6 @@ $$div\ \mathbf{u}=\nabla\cdot \mathbf{u}=u_{i,i}=\frac{\partial u_1}{\partial x_
     - 汇：☞一个封闭水池中的水流出口
   - 若是一个完全封闭的空间，这对某一物理量与外界没有任何的交换，则其散度必然为0，因为该空间无源无汇。
 ## 旋度rotation
-\begin{theorem}
+\begin{proof}
   this is a definition
-\end{theorem}
+\end{proof}
