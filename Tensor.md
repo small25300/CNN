@@ -183,3 +183,6 @@ $$
 \end{equation}
 其中：$\nabla$称为Hamilton算符，其本身就是一个矢量，可以用下式表示：
 $$\nabla=\frac{\partial}{\partial x_1}\mathbf{e_1}+\frac{\partial}{\partial x_2}\mathbf{e_2}+\frac{\partial}{\partial x_3}\mathbf{e_3}=\frac{\partial}{\partial x_i}\mathbf{e_i}$$
+若某个函数对坐标$x_i$取偏微分，则记为$(.),i$，如下所示：
+$$g=\nabla\ \varphi=\varphi_{,i}e_i$$
+也就是说：$\varphi_{,i}\equiv \frac{\partial\varphi}{\partial x_i}$
