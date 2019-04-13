@@ -245,5 +245,5 @@ $$
   - 绕过远点的某轴的一个旋转。
   - 对某个轴的反射，右手系的原坐标系改为左手系。
 ## Tensor
-- $Scalar\rightarrow Vector\rightarrow Tensor$
-- 标量$\rightarrow$标量+方向$\rightarrow$矢量+方向
+- $Scalar\Longrightarrow Vector\Longrightarrow Tensor$
+- 标量$\Longrightarrow$标量+方向$\Longrightarrow$矢量+方向
