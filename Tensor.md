@@ -84,20 +84,20 @@ $\xi_{ijk}$有27中可能的式子，其中 $ijk$ 有两个值相等的情况有
  - 混合积
  $$[\mathbf{a,b,c}]=\mathbf{a\cdot (b\times c)}$$
  它表示由$\mathbf{a,b,c}$所张成的平行六面体的体积，这个与$3\times 3$行列式的几何意义完全相同。
-  - 直觉上可以这样理解：$\mathbf{b\times c}$表示由$\mathbf{b}$和$\mathbf{c}$张成的底面积，则$\mathbf{a}$表示高，底面积点乘高最后是体积。
-  - 接下来推理混合积的表示：
-    - 首先定义脚标：$\mathbf{a}=a_ie_i$，$\mathbf{b}=b_je_j$，$\mathbf{c}=c_ke_k$
-    \begin{eqnarray*}
-      \begin{gathered}
-        \mathbf{[a,b,c]}&=&\mathbf{a\cdot (b\times c)}\\\\
-        &=&a_ie_i\cdot (b_je_j\times c_ke_k)\\\\
-        &=&a_ie_i\cdot b_jc_k(e_j\times e_k)\\\\
-        &=&a_ie_i\cdot b_jc_k\xi_{jkl}e_l\\\\
-        &=&a_ie_i\cdot b_jc_k\xi_{jkl}e_l\\\\
-        &=&a_ib_jc_k\xi_{jkl}(e_i\cdot e_l)\\\\
-        &=&a_ib_jc_k\xi_{jkl}\delta_{il}\\\\
-        &=&a_lb_jc_k\xi_{jkl}\\\\
-        &=&\xi_{ljk}a_lb_jc_k
-      \end{gathered}
-    \end{eqnarray*}
-    其中：因为$e_i\times e_j=\xi_{ijk}e_k$，所以$e_j\times e_k=\xi_{jkl}e_l$，由于前面有$a_ie_i$,所以不能用 $i$ 符号，选择 $l$ 符号。
+    - 直觉上可以这样理解：$\mathbf{b\times c}$表示由$\mathbf{b}$和$\mathbf{c}$张成的底面积，则$\mathbf{a}$表示高，底面积点乘高最后是体积。
+    - 接下来推理混合积的表示：
+      - 首先定义脚标：$\mathbf{a}=a_ie_i$，$\mathbf{b}=b_je_j$，$\mathbf{c}=c_ke_k$
+      \begin{eqnarray*}
+        \begin{gathered}
+          \mathbf{[a,b,c]}&=&\mathbf{a\cdot (b\times c)}\\\\
+          &=&a_ie_i\cdot (b_je_j\times c_ke_k)\\\\
+          &=&a_ie_i\cdot b_jc_k(e_j\times e_k)\\\\
+          &=&a_ie_i\cdot b_jc_k\xi_{jkl}e_l\\\\
+          &=&a_ie_i\cdot b_jc_k\xi_{jkl}e_l\\\\
+          &=&a_ib_jc_k\xi_{jkl}(e_i\cdot e_l)\\\\
+          &=&a_ib_jc_k\xi_{jkl}\delta_{il}\\\\
+          &=&a_lb_jc_k\xi_{jkl}\\\\
+          &=&\xi_{ljk}a_lb_jc_k
+        \end{gathered}
+      \end{eqnarray*}
+      其中：因为$e_i\times e_j=\xi_{ijk}e_k$，所以$e_j\times e_k=\xi_{jkl}e_l$，由于前面有$a_ie_i$,所以不能用 $i$ 符号，选择 $l$ 符号。
