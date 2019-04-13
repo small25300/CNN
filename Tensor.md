@@ -300,7 +300,7 @@ $$(e_1\quad e_2\quad e_3)M^Tb^\prime=(e_1\quad e_2\quad e_3)b$$
   \begin{eqnarray*}
     \begin{cases}
       e_1^\prime=2e_1+e_2\\\\
-      3_2^\prime=2e_1+3e_2\\\\
+      e_2^\prime=2e_1+3e_2\\\\
     \end{cases}
   \end{eqnarray*}
   则：
