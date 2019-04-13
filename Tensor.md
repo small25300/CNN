@@ -162,7 +162,7 @@ $$
     \delta_{km} & \delta_{kn} & \delta_{kk}\\\\
   \end{vmatrix}\\\\
   &=&\delta_{im}\delta_{jn}\delta_{kk}+\delta_{in}\delta_{jk}\delta_{km}+\delta_{ik}\delta_{jm}\delta_{kn}\\\\
-  -\delta_{ik}\delta_{jn}\delta_{km}-\delta_{im}\delta_{jk}\delta_{kn}-\delta_{in}\delta_{jm}\delta_{kk}\\\\
+  &-&\delta_{ik}\delta_{jn}\delta_{km}-\delta_{im}\delta_{jk}\delta_{kn}-\delta_{in}\delta_{jm}\delta_{kk}\\\\
   &=&3\delta_{im}\delta_{jn}+\delta_{in}\delta_{jm}+\delta_{in}\delta_{jm}-\delta_{im}\delta_{jn}-\delta_{im}\delta_{jn}-3\delta_{in}\delta_{jm}\\\\
   &=&3\delta_{im}\delta_{jn}+2\delta_{in}\delta_{jm}-2\delta_{im}\delta_{jn}-3\delta_{in}\delta_{jm}\\\\
   &=&\delta_{im}\delta_{jn}-\delta_{in}\delta_{jm}
@@ -187,11 +187,11 @@ $$\nabla=\frac{\partial}{\partial x_1}\mathbf{e_1}+\frac{\partial}{\partial x_2}
 $$g=\nabla\ \varphi=\varphi_{,i}e_i$$
 也就是说：$\varphi_{,i}\equiv \frac{\partial\varphi}{\partial x_i}$
 - 方向导数与梯度的关系：
-\begin{aligned}{left}
+\begin{eqnarray*}
   \begin{gathered}
     \frac{\partial\varphi}{\partial\mathbf{n}}&=&\nabla\varphi\cdot\mathbf{n}\\\\
-    &=&\frac{\partial\varphi}{\partial x_1}\cos\alpha_1+\frac{\partial\varphi}{\partial x_2}\cos\alpha_2+\frac{\partial\varphi}{\partial x_3}\cos\alpha_3
+    &=&\frac{\partial\varphi}{\partial x_1}\cos\alpha_1+\frac{\partial\varphi}{\partial x_2}\cos\alpha_2+\frac{\partial\varphi}{\partial x_3}\cos\alpha_3\\\\
   \end{gathered}
-\end{aligned}
+\end{eqnarray*}
 其中：$\mathbf{n}$是方向向量(注意：它不是单位向量)，$\mathbf{n}=(\cos\alpha_1,\cos\alpha_2,\cos\alpha_3)^T$，它实际上表示的是$\mathbf{n}$在标准基$e_1,e_2,e_3$三个方向上的投影。  
 本质上：$\nabla\varphi\cdot\mathbf{n}=(\varphi_{,i}e_i)\cdot(n_je_j)=\varphi_{,i}n_j(e_i\cdot e_j)=\varphi_{,i}n_j\delta_{ij}=\varphi_{,i}n_i$
