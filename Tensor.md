@@ -195,5 +195,8 @@ $$g=\nabla\ \varphi=\varphi_{,i}e_i$$
 - 通量（类似磁通量）：☞穿过空间某个任意曲面的物理量的总量称为通量。
   - 由上面通量定义可知，能形成通量的物理量一定是矢量。
   - 对于一个曲面，真正意义上的通量是与该曲面法线（垂直与该曲面某点切面的直线）方向向平行的物理量，但实际情况不是所有物理量都沿法线方向，因此是该物理量在法线方向上的投影，才是真正的通量。
-  - 物理量用向量$mathbf{v}$表示，法线用向量$\mathbf{n}$表示，注意此处的法向量是一个单位向量，因此：
-  $$\mathbf{v\cdot n}=\lVert\mathbf{v}\rVert\cdot\lVert\mathbf{n}\rVert\cos\theta$$
+  - 物理量用向量$\mathbf{v}$表示，法线用向量$\mathbf{n}$表示，注意此处的法向量是一个单位向量，因此：
+  $$\mathbf{v\cdot n}=\lVert\mathbf{v}\rVert\cdot\lVert\mathbf{n}\rVert\cos\theta=\lVert\mathbf{v}\rVert\cos\theta$$
+  由于$\mathbf{v}$与$\mathbf{n}$的夹角为$\theta$，则$\lVert\mathbf{v}\rVert\cos\theta$表示$\mathbf{v}$在$\mathbf{n}$方向上的投影，因此$\mathbf{v\cdot n}$就是该投影。
+- 穿过曲面通量的公式表示：
+$$\int_s\mathbf{v\cdot n}\ds$$
