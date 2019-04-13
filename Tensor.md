@@ -186,3 +186,10 @@ $$\nabla=\frac{\partial}{\partial x_1}\mathbf{e_1}+\frac{\partial}{\partial x_2}
 若某个函数对坐标$x_i$取偏微分，则记为$(.),i$，如下所示：
 $$g=\nabla\ \varphi=\varphi_{,i}e_i$$
 也就是说：$\varphi_{,i}\equiv \frac{\partial\varphi}{\partial x_i}$
+- 方向导数与梯度的关系：
+\begin{eqnarray*}
+  \begin{gathered}
+    \frac{\partial\varphi}{\partial\mathbf{n}}=\nabla\varphi\cdot\mathbf{n}\\\\
+    \frac{\partial\varphi}{\partial x_1}\cos\alhpa_1+\frac{\partial\varphi}{\partial x_2}\cos\alhpa_2+\frac{\partial\varphi}{\partial x_3}\cos\alhpa_3
+  \end{gathered}
+\end{eqnarray*}
