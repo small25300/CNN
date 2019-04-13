@@ -140,3 +140,16 @@ $$
     \delta_{3j} & \delta_{3i} & \delta_{3k}\\\\
   \end{vmatrix}
   $$
+  这样可以推出：
+  $$
+  \xi_{pqr}\xi_{ijk}=-
+  \begin{vmatrix}
+    \delta_{pi} & \delta_{pj} & \delta_{pk}\\\\
+    \delta_{qi} & \delta_{qj} & \delta_{qk}\\\\
+    \delta_{ri} & \delta_{rj} & \delta_{rk}\\\\
+  \end{vmatrix}
+  $$
+  具体推导思路：将$\xi_{pqr}$写成同$\xi_{ijk}$相同的模式，由于这两个置换符号用$\delta$符号表示的行列式中仅有对角线元素是为1的，其他元素都为0，所以就是对应对角线元素的乘积(但是该乘积以点乘表示才能推导出，具体原因不详)，仅以$\delta_{1p}\cdot\delta_{1i}$为例：
+  $$
+  \delta_{1p}\cdot\delta_{1i}=e_1e_p\cdot e_1e_i={e_1e_p}^Te_1e_i=e_p^Te_1^Te_1e_i=e_pe_i=\delta_{pi}
+  $$
