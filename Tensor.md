@@ -249,5 +249,7 @@ $$
 - 坐标变换-可以看成基变换的特殊情况，特殊在基是正交基。
   - 基变换的表示：
   \begin{equation}
-    \begin{pmatrix} e_1^'\\\\e_2^'\\\\e_3'\end{pmatrix}
+    \begin{pmatrix} 
+      e_1^'\\\\e_2^'\\\\e_3'\\\\
+     \end{pmatrix}
   \end{equation}
