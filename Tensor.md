@@ -252,16 +252,14 @@ $$
     \begin{pmatrix}e_1^\prime\\\\e_2^\prime\\\\e_3^\prime\\\\ \end{pmatrix}=M\begin{pmatrix}e_1\\\\e_2\\\\e_3\\\\ \end{pmatrix}
   \end{equation}
   则：
-  \begin{equation*}
-    \begin{array}
+  \begin{eqnarray*}
       \begin{pmatrix}e_1^\prime\\\\e_2^\prime\\\\e_3^\prime\\\\ \end{pmatrix}\begin{pmatrix}e_1 & e_2 & e_3\end{pmatrix}&=&M\begin{pmatrix}e_1\\\\e_2\\\\e_3\\\\ \end{pmatrix}\begin{pmatrix}e_1 & e_2 & e_3\end{pmatrix}\\\\
       \begin{bmatrix}
         e_1^\prime\cdot e_1 & e_1^\prime\cdot e_2 & e_1^\prime\cdot e_3\\\\
         e_2^\prime\cdot e_1 & e_2^\prime\cdot e_2 & e_2^\prime\cdot e_3\\\\ 
         e_3^\prime\cdot e_1 & e_3^\prime\cdot e_2 & e_3^\prime\cdot e_3\\\\ 
       \end{bmatrix}=MI=M
-    \end{array}
-  \end{equation*}
+  \end{eqnarray*}
   所以：
   \begin{equation}
     M = \begin{bmatrix}
