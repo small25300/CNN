@@ -222,9 +222,17 @@ $$div\ \mathbf{u}=\nabla\cdot \mathbf{u}=u_{i,i}=\frac{\partial u_1}{\partial x_
 $$\iint_\sum (\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z})\ dydz+(\frac{\partial P}{\partial z}-\frac{\partial R}{\partial x})\ dzdx+(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y})\ dxdy=\oint_\Gamma P\ dx+Q\ dy+R\ dz$$
 令：
 $$
-rot \mathbf{u}=\nabla\times\mathbf{u}=\begin{vmatrix}
+rot\ \mathbf{u}=\nabla\times\mathbf{u}=\begin{vmatrix}
 e_1 & e_2 & e_3\\\\
 \frac{\partial}{\partial x_1} & \frac{\partial}{\partial x_2} & \frac{\partial}{\partial x_3}\\\\
 u_1 & u_2 & u_3\\\\
 \end{vmatrix}
 $$
+- 旋度物理意义：旋度是用来描述一个漩涡源的漩涡流强度的物理量，而所谓的漩涡源就是一个能在其周围造成一个“环(封闭有向曲线)”的流源，因此为了描述此漩涡的强度，定义：单位面积的最大环量称为旋度，其方向为此环所围的面的法向量。
+- 实际意义：就是一个局部微圆转动变化的快慢，我们称之为旋度。
+- 旋度的特性：
+  - 旋度是一个矢量，是空间坐标点的函数。
+  - 一点旋度的大小是该点**环量面密度**的最大值（不懂）。
+  - 旋度的方向是与该点**最大环量面密度**对应的法线方向（有点与梯度相同的感觉）。
+  - 如果矢量场有一点的段都$\neq$0，则是旋度场，如果矢量场中旋度处处=0，则称为无旋度场。
+  - 一点有旋度，则处处有旋度。
