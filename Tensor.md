@@ -74,10 +74,10 @@ $\xi_{ijk}$有27中可能的式子，其中 $ijk$ 有两个值相等的情况有
   \end{equation}
   \begin{eqnarray}
     \begin{gathered}
-      \mathbf{c&=&a\times b}\\\\
+      \mathbf{c}&=&\mathbf{a\times b}\\\\
      &=&(a_ie_i)\times (b_je_j)\\\\
      &=&(a_ib_j)(e_i\times e_j)
     \end{gathered}
   \end{eqnarray}
-  对比上面(6)式和(7)式：$a_ib_j(e_i\times e_j)=\xi_{ijk}a_ib_je_k$，可得出：
+  对比上面(7)式和(8)式：$a_ib_j(e_i\times e_j)=\xi_{ijk}a_ib_je_k$，可得出：
   $$e_i\times e_j=\xi_{ijk}e_k$$
