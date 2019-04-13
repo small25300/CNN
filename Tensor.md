@@ -55,8 +55,8 @@ $$\mathbf{a}=\alpha\mathbf{b}=\alpha(b_je_j)=(\alpha b_j)e_j$$
       &=& a_1b_2e_3+a_2b_3e_1+a_3b_1e_2-a_1b_3e_2-a_2b_1e_3-a_3b_2e_1
    \end{gathered}
 \end{eqnarray}
-观察(5)式：脚标无论怎么循环移位，都可以形成1、2、3顺序的，这样的排列称为偶排列（正向排列），其项前面为正号。脚标无论怎么循环移位，都可以形成3、2、1顺序的，这样的排列称为奇排列（反向排列），其项前面都为负号。  
-因此我们定义置换符号：
+观察(5)式：脚标无论怎么循环移位，都可以形成1、2、3顺序的，这样的排列称为偶排列（正向排列），其项前面为+1。脚标无论怎么循环移位，都可以形成3、2、1顺序的，这样的排列称为奇排列（反向排列），其项前面都为-1。为了表示行列式脚标与符号之间的关系，因此我们定义一个新的符号$\rightarrow$置换符号。  
+- 置换符号定义如下：
 \begin{equation}
   \xi_{ijk}=\begin{cases}
   \ 1\qquad & ijk为偶排列（正向排列）\\\\
@@ -65,3 +65,19 @@ $$\mathbf{a}=\alpha\mathbf{b}=\alpha(b_je_j)=(\alpha b_j)e_j$$
   \end{cases}
 \end{equation}
 $\xi_{ijk}$有27中可能的式子，其中 $ijk$ 有两个值相等的情况有21个。
+  - 如果将置换符号的脚标$ijk$看作正向，$kji$看作反向，则：
+  $$\xi_{ijk}=\xi_{jki}=\xi_{kij}$$
+  $$\xi_{ijk}=-\xi_{kji}=-\xi_{jik}=-\xi_{ikj}$$
+  根据以上分析：
+  \begin{equation}
+    \mathbf{c=a\times b}=\xi_{ijk}a_ib_je_k
+  \end{equation}
+  \begin{eqnarray}
+    \begin{gathered}
+      \mathbf{c&=&a\times b}\\\\
+      =(a_ie_i)\times (b_je_j)\\\\
+      =(a_ib_j)(e_i\times e_j)
+    \end{gathered}
+  \end{eqnarray}
+  对比上面(6)式和(7)式：$a_ib_j(e_i\times e_j)=\xi_{ijk}a_ib_je_k$，可得出：
+  $$e_i\times e_j=\xi_{ijk}e_k$$
