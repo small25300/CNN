@@ -247,7 +247,26 @@ $$
 - $Scalar\Longrightarrow Vector\Longrightarrow Tensor$
 - 标量$\Longrightarrow$标量+方向$\Longrightarrow$矢量+方向
 - 坐标变换-可以看成基变换的特殊情况，特殊在基是正交基。
-  - 基变换的表示：
+  - 坐标变换的表示：
   \begin{equation}
     \begin{pmatrix}e_1^\prime\\\\e_2^\prime\\\\e_3^\prime\\\\ \end{pmatrix}=M\begin{pmatrix}e_1\\\\e_2\\\\e_3\\\\ \end{pmatrix}
+  \end{equation}
+  则：
+  \begin{equation*}
+    \begin{array}
+      \begin{pmatrix}e_1^\prime\\\\e_2^\prime\\\\e_3^\prime\\\\ \end{pmatrix}\begin{pmatrix}e_1 & e_2 & e_3\end{pmatrix}&=&M\begin{pmatrix}e_1\\\\e_2\\\\e_3\\\\ \end{pmatrix}\begin{pmatrix}e_1 & e_2 & e_3\end{pmatrix}\\\\
+      \begin{bmatrix}
+        e_1^\prime\cdot e_1 & e_1^\prime\cdot e_2 & e_1^\prime\cdot e_3\\\\
+        e_2^\prime\cdot e_1 & e_2^\prime\cdot e_2 & e_2^\prime\cdot e_3\\\\ 
+        e_3^\prime\cdot e_1 & e_3^\prime\cdot e_2 & e_3^\prime\cdot e_3\\\\ 
+      \end{bmatrix}=MI=M
+    \end{array}
+  \end{equation*}
+  所以：
+  \begin{equation}
+    M = \begin{bmatrix}
+        e_1^\prime\cdot e_1 & e_1^\prime\cdot e_2 & e_1^\prime\cdot e_3\\\\
+        e_2^\prime\cdot e_1 & e_2^\prime\cdot e_2 & e_2^\prime\cdot e_3\\\\ 
+        e_3^\prime\cdot e_1 & e_3^\prime\cdot e_2 & e_3^\prime\cdot e_3\\\\ 
+      \end{bmatrix}
   \end{equation}
