@@ -363,4 +363,4 @@ $$grad\ \mathbf{u}=\nabla\mathbf{u}$$
   &=& \begin{pmatrix}e_1 & e_2\end{pmatrix}\begin{bmatrix}\begin{pmatrix}\frac{\partial\upsilon_1}{\partial x_1} & \frac{\partial\upsilon_2}{\partial x_1}\end{pmatrix} \\\\ \begin{pmatrix}\frac{\partial\upsilon_1}{\partial x_2} & \frac{\partial\upsilon_2}{\partial x_2}\end{pmatrix}\end{bmatrix}\begin{pmatrix}e_1 \\\\ e_2\end{pmatrix}\\\\
   &=& \begin{pmatrix}e_1 & e_2\end{pmatrix}\begin{bmatrix}\frac{\partial\upsilon_1}{\partial x_1} &  \frac{\partial\upsilon_2}{\partial x_1}\\\\ \frac{\partial\upsilon_1}{\partial x_2} & \frac{\partial\upsilon_2}{\partial x_2}\end{bmatrix}\begin{pmatrix}e_1\\\\e_2\end{pmatrix}\\\\
  \end{eqnarray*}
- 上面通式的证明过程有一个问题：将$\nabla\upsilon=\frac{\partial \upsilon}{\partial x_1}e_1+\frac{\partial \upsilon}{\partial x_2}e_2$写成行向量乘以列向量的模式，可以证明出与上面例题相同。若将该式写为列向量乘以行向量的模式，则证明处的中间的矩阵与该式的矩阵正好是转置关系，具体原因还没有搞清楚。
+ 上面通式的证明过程有一个问题：将$\nabla\upsilon=\frac{\partial \upsilon}{\partial x_1}e_1+\frac{\partial \upsilon}{\partial x_2}e_2$写成行向量乘以列向量的模式，可以证明出与上面例题相同。若将该式写为列向量乘以行向量的模式，则证明出最终结果表达式中间的矩阵与该结果表达式中间的矩阵正好是转置关系，具体原因还没有搞清楚。
