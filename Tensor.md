@@ -366,3 +366,4 @@ $$grad\ \mathbf{u}=\nabla\mathbf{u}$$
   &=& \begin{pmatrix}e_1 & e_2\end{pmatrix}\begin{bmatrix}\begin{pmatrix}\frac{\partial\upsilon_1}{\partial x_1} &  \frac{\partial\upsilon_2}{\partial x_1}\end{pmatrix} \\\\ \begin{pmatrix}\frac{\partial\upsilon_1}{\partial x_2} & \frac{\partial\upsilon_2}{\partial x_2}\end{pmatrix}\end{bmatrix}\begin{pmatrix}e_1\\\\e_2\end{pmatrix}\\\\
   &=& \begin{pmatrix}e_1 & e_2\end{pmatrix}\begin{bmatrix}\frac{\partial\upsilon_1}{\partial x_1} &  \frac{\partial\upsilon_2}{\partial x_1}\\\\ \frac{\partial\upsilon_1}{\partial x_2} & \frac{\partial\upsilon_2}{\partial x_2}\end{bmatrix}\begin{pmatrix}e_1\\\\e_2\end{pmatrix}\\\\
  \end{eqnarray*}
+ 在上式中的第5行到第6行提取向量$(e_1\quad e_2)$时，我们对后面的矩阵做了一个转置，原因时因为$(e_1\quad e_2)$是一个$1\times 2$的矩阵，而如果直接提取，里面的两个小矩阵(或向量)是大矩阵的元素，大矩阵同样是一个$1\times 2$的矩阵，所以
