@@ -332,7 +332,7 @@ $$grad\ \mathbf{u}=\nabla\mathbf{u}$$
 上式矩阵中的每一个元素是一个整体，代表一个新的方向。
 - 梯度举例：假设$\mathbf{\upsilon}=(x_1^2+2x_2^2)e_1+(x_1x_2+x_2^2)e_2$，求$\nabla\mathbf{\upsilon}$。
 \begin{eqnarray*}
-  \nabla=\frac{\partial}{\partial x_1}e_1+\frac{\partial}{\partial x_2}e_2\\\\
-  \mathbf{\upsilon}=\upsilon_1e_1+\upsilon_2e_2\\\\
-  So：\nabla\mathbf{\upsilon}=\frac{\partial \upsilon_1e_1}{\partial x_1}e_1+\frac{\partial \upsilon_1e_2}{\partial x_1}e_1+\frac{\partial \upsilon_1e_1}{\partial x_2}e_2+\frac{\partial \upsilon_1e_2}{\partial x_2}e_2
+  \nabla &=& \frac{\partial}{\partial x_1}e_1+\frac{\partial}{\partial x_2}e_2\\\\
+  \mathbf{\upsilon} &=& \upsilon_1e_1+\upsilon_2e_2\\\\
+  So：\nabla\mathbf{\upsilon} &=& \frac{\partial \upsilon_1e_1}{\partial x_1}e_1+\frac{\partial \upsilon_2e_2}{\partial x_1}e_1+\frac{\partial \upsilon_1e_1}{\partial x_2}e_2+\frac{\partial \upsilon_2e_2}{\partial x_2}e_2
 \end{eqnarray*}
