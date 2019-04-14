@@ -358,4 +358,5 @@ $$grad\ \mathbf{u}=\nabla\mathbf{u}$$
   \nabla\upsilon &=& \frac{\partial \upsilon}{\partial x_1}e_1+\frac{\partial \upsilon}{\partial x_2}e_2\\\\
    &=& \begin{pmatrix}\frac{\partial \upsilon}{\partial x_1} & \frac{\partial \upsilon}{\partial x_2}\end{pmatrix}
   \begin{pmatrix}e_1\\\\e_2\end{pmatrix}\\\\
+  &=& \begin{bmatrix}\frac{\partial (\upsilon_1e_1+\upsilon_2e_2)}{\partial x_1} & \frac{\partial (\upsilon_1e_1+\upsilon_2e_2)}{\partial x_2\end{bmatrix}\begin{pmatrix}e_1\\\\e_2\end{pmatrix}\\\\
  \end{eqnarray*}
