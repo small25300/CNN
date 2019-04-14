@@ -356,4 +356,6 @@ $$grad\ \mathbf{u}=\nabla\mathbf{u}$$
 对上式做一个通用的矩阵计算表示：
 \begin{eqnarray*}
   \nabla\upsilon &=& \frac{\partial \upsilon}{\partial x_1}e_1+\frac{\partial \upsilon}{\partial x_2}e_2\\\\
+   &=& \begin{pmatrix}\frac{\partial \upsilon}{\partial x_1} & \frac{\partial \upsilon}{\partial x_2}\end{pmatrix}
+  \begin{pmatrix}e_1\\\\e_2\end{pmatrix}\\\\
  \end{eqnarray*}
