@@ -356,10 +356,4 @@ $$grad\ \mathbf{u}=\nabla\mathbf{u}$$
 对上式做一个通用的矩阵计算表示：
 \begin{eqnarray*}
   \nabla\upsilon &=& \frac{\partial \upsilon}{\partial x_1}e_1+\frac{\partial \upsilon}{\partial x_2}e_2\\\\
-  &=& \begin{pmatrix}\frac{\partial \upsilon}{\partial x_1} & \frac{\partial \upsilon}{\partial x_2}\end{pmatrix}
-  \begin{pmatrix}e_1\\\\e_2\end{pmatrix}\\\\
-  
-  &=& \begin{bmatrix}\frac{\partial (\upsilon_1e_1)}{\partial x_1}+\frac{\partial (\upsilon_2e_2)}{\partial x_1} & \frac{\partial (\upsilon_1e_1)}{\partial x_2}+\frac{\partial (\upsilon_2e_2)}{\partial x_2}\end{bmatrix}\begin{pmatrix}e_1\\\\e_2\end{pmatrix}\\\\
-  
-  &=& \begin{pmatrix}e_1 & e_2\end{pmatrix}\begin{bmatrix}\begin{pmatrix}\frac{\partial\upsilon_1}{\partial x_1}\\\\ \frac{\partial\upsilon_2}{\partial x_1}\end{pmatrix} & \begin{pmatrix}\frac{\partial\upsilon_1}{\partial x_2}\\\\ \frac{\partial\upsilon_2}{\partial x_2}\end{pmatrix}\end{bmatrix}^T\begin{pmatrix}e_1\\\\e_2\end{pmatrix}
-\end{eqnarray*}
+ \end{eqnarray*}
