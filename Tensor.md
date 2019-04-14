@@ -335,12 +335,12 @@ $$grad\ \mathbf{u}=\nabla\mathbf{u}$$
   \nabla &=& \frac{\partial}{\partial x_1}e_1+\frac{\partial}{\partial x_2}e_2\\\\
   \upsilon &=& \upsilon_1e_1+\upsilon_2e_2\\\\
   So：\nabla\upsilon &=& \frac{\partial \upsilon_1e_1}{\partial x_1}e_1+\frac{\partial \upsilon_2e_2}{\partial x_1}e_1+\frac{\partial \upsilon_1e_1}{\partial x_2}e_2+\frac{\partial \upsilon_2e_2}{\partial x_2}e_2\\\\
-  &=& 2x_1e_1e_1+x_2e_2e_1+4x_2e_1e_2+(x_1+2x_2)e_2e_2
+  &=& 2x_1e_1e_1+x_2e_2e_1+4x_2e_1e_2+(x_1+2x_2)e_2e_2\\\\
   &=& (e_1\quad e_2)
   \begin{bmatrix}
     2x_1e_1+x_2e_2\\\\
     4x_2e_1+(x_1+2x_2)e_2\\\\
-  \end{bmatrix}
+  \end{bmatrix}\\\\
   &=& (e_1\quad e_2)
   \begin{bmatrix}
     2x_1 & x_2\\\\
