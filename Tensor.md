@@ -329,3 +329,10 @@ $$grad\ \mathbf{u}=\nabla\mathbf{u}$$
   e_2e_1 & e_2e_2 & e_2e_3\\\\
   e_3e_1 & e_3e_2 & e_3e_3\\\\
   \end{bmatrix}$$
+上式矩阵中的每一个元素是一个整体，代表一个新的方向。
+- 梯度举例：假设$\mathbf{v}=(x_1^2+2x_2^2)e_1+(x_1x_2+x_2^2)e_2$，求$\nabla\mathbf{v}$。
+\begin{eqnarray*}
+  \nabla=\frac{\partial}{\partial x_1}e_1+\frac{\partial}{\partial x_2}_2\\\\
+  \mathbf{v}=v_1e_1+v_2e_2\\\\
+  So：\nabla\mathbf{v}=\frac{\partial v_1e_1}{\partial x_1}e_1
+\end{eqnarray*}
