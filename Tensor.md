@@ -360,6 +360,5 @@ $$grad\ \mathbf{u}=\nabla\mathbf{u}$$
   \begin{pmatrix}e_1\\\\e_2\end{pmatrix}\\\\
   &=& \begin{bmatrix}\frac{\partial (\upsilon_1e_1+\upsilon_2e_2)}{\partial x_1} & \frac{\partial (\upsilon_1e_1+\upsilon_2e_2)}{\partial x_2\end{bmatrix}\begin{pmatrix}e_1\\\\e_2\end{pmatrix}\\\\
   &=& \begin{bmatrix}\frac{\partial (\upsilon_1e_1)}{\partial x_1}+\frac{\partial (\upsilon_2e_2)}{\partial x_1} & \frac{\partial (\upsilon_1e_1)}{\partial x_2}+\frac{\partial (\upsilon_2e_2)}{\partial x_2}\end{bmatrix}\begin{pmatrix}e_1\\\\e_2\end{pmatrix}\\\\
-  
-  &=& \begin{pmatrix}e_1 & e_2\end{pmatrix}\begin{bmatrix}\begin{pmatrix}\frac{\partial\upsilon_1}{\partial x_1}\\\\ \begin{pmatrix}\frac{\partial\upsilon_2}{\partial x_1}\end{pmatrix} & \begin{pmatrix}\frac{\partial\upsilon_1}{\partial x_2}\\\\ \begin{pmatrix}\frac{\partial\upsilon_2}{\partial x_2}\end{pmatrix}\end{bmatrix}^T\begin{pmatrix}e_1\\\\e_2\end{pmatrix}
+  &=& \begin{pmatrix}e_1 & e_2\end{pmatrix}\begin{bmatrix}\begin{pmatrix}\frac{\partial\upsilon_1}{\partial x_1}\\\\ \frac{\partial\upsilon_2}{\partial x_1}\end{pmatrix} & \begin{pmatrix}\frac{\partial\upsilon_1}{\partial x_2}\\\\ \frac{\partial\upsilon_2}{\partial x_2}\end{pmatrix}\end{bmatrix}^T\begin{pmatrix}e_1\\\\e_2\end{pmatrix}
 \end{eqnarray*}
